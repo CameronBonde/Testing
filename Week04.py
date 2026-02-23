@@ -17,8 +17,8 @@ def player_name_save():
 # Type "file. " and in a real editor after the dot, it'll display a list of variables and function that are INSIDE
 
 rootUI = tk.Tk()
-rootUI.title("Player Name")
-rootUI.geometry("500x500")
+rootUI.title("User Name")
+rootUI.geometry("700x700")
 rootUI.resizable(width=0, height=0)
 
 label = tk.Label(rootUI, text="User Name", font=("Arial", 25))
